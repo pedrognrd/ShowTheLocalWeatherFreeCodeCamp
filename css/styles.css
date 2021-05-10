@@ -1,0 +1,400 @@
+/* VARIAVBLES */
+/* default value */
+/* MAPS */
+body {
+  font-family: "Noto Sans", sans-serif !important;
+  color: #fff !important;
+  background-color: #000 !important;
+  font-size: 3rem !important;
+  line-height: 3rem !important;
+}
+
+p {
+  text-transform: capitalize;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+.col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-12, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8 {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
+h1 {
+  font-size: 5rem !important;
+}
+
+.frame {
+  background-color: #000;
+  height: 50rem;
+  border-radius: 1rem;
+}
+
+.sky {
+  height: 40rem;
+  z-index: 99;
+  background-color: #005aff;
+  background: linear-gradient(#005aff, #92feff);
+  padding: 60px 0px 0px 0px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.sky i {
+  position: relative;
+}
+
+.ground {
+  height: 20rem;
+  z-index: 100;
+  background: rebeccapurple;
+  padding: 30px !important;
+  margin-top: -20px;
+}
+
+.iconrise {
+  position: relative;
+  margin-top: 53rem;
+  -webkit-visibility: hidden;
+  visibility: hidden;
+  -webkit-animation: iconrises !important;
+  /* Safari 4.0 - 8.0 */
+  animation: iconrises !important;
+  animation-duration: 4s !important;
+  -webkit-animation-duration: 4s !important;
+  -webkit-animation-iteration-count: 1 !important;
+  animation-iteration-count: 1 !important;
+  -webkit-animation-delay: 1s !important;
+  /* Safari 4.0 - 8.0 */
+  animation-delay: 1s !important;
+  -webkit-animation-fill-mode: forwards !important;
+  animation-fill-mode: forwards !important;
+}
+
+.iconrise span {
+  background-image: url(https://www.weathertomorrow.net/img.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 110px;
+  height: 110px;
+  display: inline-block;
+}
+
+.icon-01d {
+  background-position: 12px -1086px;
+}
+
+.icon-02d {
+  background-position: 12px -1366px;
+}
+
+.icon-03d {
+  background-position: 12px -1686px;
+}
+
+.icon-04d {
+  background-position: 12px -2026px;
+}
+
+.icon-09d {
+  background-position: 12px -2526px;
+}
+
+.icon-10d {
+  background-position: 12px -2716px;
+}
+
+.icon-13d {
+  background-position: 12px -2906px;
+}
+
+.icon-default {
+  background-position: 12px -1086px;
+}
+
+@-webkit-keyframes iconrises {
+  0% {
+    margin-top: 53rem;
+    visibility: visible;
+  }
+  100% {
+    margin-top: 0rem;
+    visibility: visible;
+  }
+}
+@keyframes iconrises {
+  0% {
+    margin-top: 53rem;
+    visibility: visible;
+  }
+  100% {
+    margin-top: 0rem;
+    visibility: visible;
+  }
+}
+.thermunit {
+  cursor: pointer;
+  color: #0fc;
+  font-weight: bold;
+}
+
+.mountain {
+  position: absolute;
+  content: " ";
+  bottom: 0;
+  left: 50px;
+  border-top: 0px solid transparent;
+  border-right: 180px solid transparent;
+  border-bottom: 350px solid #1e863d;
+  /* height of the mountain*/
+  border-left: 180px solid transparent;
+  z-index: 5;
+}
+
+.mountain-shadow {
+  position: absolute;
+  content: " ";
+  bottom: 0;
+  left: 230px;
+  border-top: 0px solid transparent;
+  border-right: 140px solid transparent;
+  border-bottom: 350px solid #357639;
+  /* height of the mountain*/
+  border-left: 0px solid transparent;
+  z-index: 5;
+  transform-origin: top right;
+  transform: skewX(-30deg);
+}
+
+.mountain-1 {
+  position: absolute;
+  content: " ";
+  bottom: 0;
+  left: 310px;
+  border-top: 0px solid transparent;
+  border-right: 130px solid transparent;
+  border-bottom: 150px solid #5ad07d;
+  /* height of the mountain*/
+  border-left: 130px solid transparent;
+  z-index: 5;
+}
+
+.mountain-shadow-1 {
+  position: absolute;
+  content: " ";
+  bottom: 0;
+  left: 440px;
+  border-top: 0px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 150px solid #357639;
+  /* height of the mountain*/
+  border-left: 0px solid transparent;
+  z-index: 5;
+  transform-origin: top right;
+  transform: skewX(-42deg);
+}
+
+.mountain-2 {
+  position: absolute;
+  content: " ";
+  bottom: 0;
+  left: 780px;
+  border-top: 0px solid transparent;
+  border-right: 180px solid transparent;
+  border-bottom: 440px solid #369f55;
+  /* height of the mountain*/
+  border-left: 180px solid transparent;
+  z-index: 5;
+}
+
+.mountain-shadow-2 {
+  position: absolute;
+  content: " ";
+  bottom: 0;
+  left: 960px;
+  border-top: 0px solid transparent;
+  border-right: 140px solid transparent;
+  border-bottom: 440px solid #357639;
+  /* height of the mountain*/
+  border-left: 0px solid transparent;
+  z-index: 5;
+  transform-origin: top right;
+  transform: skewX(9deg);
+}
+
+.mountain-3 {
+  position: absolute;
+  content: " ";
+  bottom: 0;
+  left: 630px;
+  border-top: 0px solid transparent;
+  border-right: 180px solid transparent;
+  border-bottom: 240px solid #5ad07d;
+  /* height of the mountain*/
+  border-left: 180px solid transparent;
+  z-index: 5;
+}
+
+.mountain-shadow-3 {
+  position: absolute;
+  content: " ";
+  bottom: 0;
+  left: 810px;
+  border-top: 0px solid transparent;
+  border-right: 150px solid transparent;
+  border-bottom: 240px solid #357639;
+  /* height of the mountain*/
+  border-left: 0px solid transparent;
+  z-index: 5;
+  transform-origin: top right;
+  transform: skewX(9deg);
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 400px) {
+  body {
+    font-size: 2.2rem !important;
+  }
+
+  .mountain {
+    left: -120px;
+  }
+
+  .mountain-shadow {
+    left: 60px;
+  }
+
+  .mountain-1 {
+    left: 60px;
+  }
+
+  .mountain-shadow-1 {
+    left: 190px;
+  }
+
+  .mountain-2 {
+    left: 250px;
+  }
+
+  .mountain-shadow-2 {
+    left: 430px;
+  }
+
+  .mountain-3 {
+    left: 150px;
+  }
+
+  .mountain-shadow-3 {
+    left: 330px;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  body {
+    font-size: 3rem !important;
+  }
+
+  .mountain {
+    left: -40px;
+  }
+
+  .mountain-shadow {
+    left: 140px;
+  }
+
+  .mountain-1 {
+    left: 120px;
+  }
+
+  .mountain-shadow-1 {
+    left: 250px;
+  }
+
+  .mountain-2 {
+    left: 480px;
+  }
+
+  .mountain-shadow-2 {
+    left: 660px;
+  }
+
+  .mountain-3 {
+    left: 330px;
+  }
+
+  .mountain-shadow-3 {
+    left: 510px;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .mountain {
+    left: 0px;
+  }
+
+  .mountain-shadow {
+    left: 180px;
+  }
+
+  .mountain-1 {
+    left: 220px;
+  }
+
+  .mountain-shadow-1 {
+    left: 350px;
+  }
+
+  .mountain-2 {
+    left: 680px;
+  }
+
+  .mountain-shadow-2 {
+    left: 860px;
+  }
+
+  .mountain-3 {
+    left: 480px;
+  }
+
+  .mountain-shadow-3 {
+    left: 660px;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .mountain {
+    left: 0px;
+  }
+
+  .mountain-shadow {
+    left: 180px;
+  }
+
+  .mountain-1 {
+    left: 290px;
+  }
+
+  .mountain-shadow-1 {
+    left: 420px;
+  }
+
+  .mountain-2 {
+    left: 800px;
+  }
+
+  .mountain-shadow-2 {
+    left: 980px;
+  }
+
+  .mountain-3 {
+    left: 570px;
+  }
+
+  .mountain-shadow-3 {
+    left: 750px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
