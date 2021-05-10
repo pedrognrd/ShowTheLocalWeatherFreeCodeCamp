@@ -54,8 +54,3 @@ For toggle between Fahrenheit and Celsius degrees, just press the Green "C" or "
 ## **Credits**
 
 Development and design by [Pedro González Rodríguez](https://github.com/pedrognrd)
-
-
-
-    License: Finally, include a section for the license of your project. For more information on choosing a license, check out GitHub’s licensing guide!
-
