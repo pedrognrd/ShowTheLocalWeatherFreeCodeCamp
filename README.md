@@ -47,6 +47,10 @@ The app contains the following structure:
 
 The usage is very simple, you only need to open "index.html" file on your browser. The browser will ask for location permission to execute properly the app.
 
+For toggle between Fahrenheit and Celsius degrees, just press the Green "C" or "F" section  in the "The Temperature is" area:
+
+![Fahrenheit degrees](/img/screenshot01.png)
+
 ## **Credits**
 
 Development and design by [Pedro González Rodríguez](https://github.com/pedrognrd)
