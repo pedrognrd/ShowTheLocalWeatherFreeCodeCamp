@@ -1,4 +1,4 @@
-// I will capture the api from here: https://home.openweathermap.org/
+// I will capture the api data from here: https://home.openweathermap.org/
 // I'm going to capture the weather icons from here: https://www.weathertomorrow.net/icon/03d.svg
 
 /*  Code by @pedrognrd  */  
@@ -32,18 +32,12 @@ function getWeather(api, lat, lon) {
         icon = JSON.stringify(result.weather[0]["icon"]);
         console.log(icon);
         icon = icon.replace(/['"]+/g, '');
-        console.log(icon);
-        /*icon = "<img src =" + urlIcon + icon + ".svg width='180px'>";
-        icon = "<span></span>";*/
-        //icon.addClass("icon-01d");
-        //icon.addClass("icon-10d");
 
         $("#city").text(result.name + ", ");
         $("#country").text(country);
         $("#temperature").text(temperature + String.fromCharCode(176) + " "); 
         $("#thermunit").text(thermunit);
         $("#weather").text(weather + " "); 
-        //$("#icon-rise").html(icon); 
       }
 
       $("#thermunit").click(function () {
